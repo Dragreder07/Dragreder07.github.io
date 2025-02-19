@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du lịch Đại Từ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Khám phá Đại Từ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#destinations">Địa điểm</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Chào mừng đến với Đại Từ</h2>
+        <p>Đại Từ, Thái Nguyên - một điểm đến hấp dẫn với những danh lam thắng cảnh nổi tiếng và văn hóa đặc sắc.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Địa điểm du lịch nổi bật</h2>
+        <div class="destination" id="dai-bao-pagoda">
+            <h3>Chùa Đại Bảo</h3>
+            <img src="images/dai-bao-pagoda.jpg" alt="Chùa Đại Bảo">
+            <p>Chùa Đại Bảo là một ngôi chùa cổ kính, mang đậm nét văn hóa Phật giáo Việt Nam.</p>
+        </div>
+        <div class="destination" id="ho-nui-coc">
+            <h3>Hồ Núi Cốc</h3>
+            <img src="images/ho-nui-coc.jpg" alt="Hồ Núi Cốc">
+            <p>Hồ Núi Cốc là một trong những hồ nước nổi tiếng tại Thái Nguyên, với phong cảnh hữu tình và nhiều hoạt động giải trí.</p>
+        </div>
+        <!-- Thêm các địa điểm khác ở đây -->
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <form id="contact-form">
+            <label for="name">Tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Tin nhắn:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Du lịch Đại Từ</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
